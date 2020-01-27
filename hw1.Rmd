@@ -1,0 +1,28 @@
+---
+title: "ds202_hw1"
+author: "YangfanCai/yangfanc"
+date: "1/19/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+data science is *popular major* in America. this major can do the **analytics** in business,computer,etc.  
+here is the **link**
+```{r}
+baseURL <-'https://www.northeastern.edu/graduate/blog/data-science-careers-shaping-our-future/'
+```
+
+here is the **image** about the *data science income*
+
+```{r data science income, echo=TRUE, fig.cap="my caption", out.width = '100%'}
+knitr::include_graphics("data science income.png")
+```
+```{r}
+version
+
+```
+
